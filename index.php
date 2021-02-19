@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
   </head>
   <body>
-
+      <div class="header">
+        <ul class="menu">
+          <li class="list"><a href="index.html">Home</a></li>
+          <li class="list"><a href="about.html">About</a></li>
+          <li class="list">
+            <a href="#" class="init-bottom">Learn More</a>
+            <ul class="menu_second">
+              <li class="list_second"><a href="https://www.post.japanpost.jp/send/fee/kokunai/one_two.html">日本郵便</a></li>
+              <li class="list_second"><a href="https://www.mercari.com/jp/rakuraku-mercari/">らくらくメルカリ</a></li>
+              <li class="list_second"><a href="https://www.mercari.com/jp/yuyu-mercari/">ゆうゆうメルカリ</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     <div class="main">
       <div class="results">
         <h3>結 果</h3>
