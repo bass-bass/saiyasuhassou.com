@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>最安発送.com</title>
+    <link rel="icon" href="499_h_h.png">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
   </head>
