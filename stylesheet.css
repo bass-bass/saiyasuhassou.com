@@ -1,6 +1,21 @@
 @media (max-width:1000px){
   .top-wrapper{
     width:100%;
+    text-align:center;
+  }
+  .main{
+    width:100%;
+    text-align:center;
+  }
+}
+@media (max-width:600px){
+  .top-wrapper{
+    width:100%;
+    text-align:center;
+  }
+  .main{
+    width:100%;
+    text-aign:center;
   }
 }
 * {
@@ -206,4 +221,7 @@ li.list_second{
   line-height:42px;
   font-size:20px;
   opacity:0.7;
+}
+.about span{
+  color:#ff0000;
 }
