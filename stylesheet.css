@@ -98,7 +98,7 @@ li.list_second{
 .jumbotron {
   background-color:#0099cc;
   color:white;
-  height:380px;
+  height:395px;
 }
 
 /*
@@ -145,7 +145,7 @@ li.list_second{
   padding-bottom:40px;
   margin-bottom:40px;
   /*text-align:center;*/
-  opacity:0.7;
+  opacity:0.6;
 }
 .copy-container p{
   font-size:17px;
@@ -156,6 +156,7 @@ li.list_second{
 
 .copy-container {
   text-align:center;
+  margin-bottom:70px;
 }
 /*
 .copy-container img{
@@ -249,11 +250,19 @@ li.list_second{
   color:#ff0000;
 }
 .container {
-  margin-bottom:90px;
+  margin-bottom:100px;
 }
 .col-md4 {
   text-align:center;
+  margin-top:70px;
 }
-.btn {
+.btn_2 {
   opacity:0.9;
+  text-align:center;
+}
+.mb-3 {
+  text-align:center;
+}
+.img {
+  margin: 40px 0 40px 0;
 }
