@@ -1,15 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>最安発送.com</title>
     <link rel="icon" href="499_h_h.png">
     <meta name="description" content="メルカリユーザー向けの発送方法検索サイトです。">
-    <link rel="stylesheet" href="stylesheet.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MK7XSM4EF3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MK7XSM4EF3');
+    </script>
   </head>
   <body>
+    <!--
       <div class="header">
         <ul class="menu">
           <li class="list"><a href="index.html">Home</a></li>
@@ -24,7 +38,41 @@
           </li>
         </ul>
       </div>
+    -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn More</a>
+              <div class="dropdown-menu bg-dark" aria-labelledby="dropdown08">
+                <a class="dropdown-item" href="https://www.post.japanpost.jp/send/fee/kokunai/one_two.html">日本郵便</a>
+                <a class="dropdown-item" href="https://www.mercari.com/jp/rakuraku-mercari/">らくらくメルカリ便</a>
+                <a class="dropdown-item" href="https://www.mercari.com/jp/yuyu-mercari/">ゆうゆうメルカリ便</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+          </svg>   最安発送.com</h1>
+          <p>あなたに合った最適で最安の発送方法をすぐに発見します。</p>
+          <p><a class="btn btn-dark btn-lg" href="about.html" role="button">詳しく知る &raquo;</a></p>
+        </div>
+      </div>
+      <!--
       <div class="top-wrapper">
           <div class="container">
           <h1>最安発送.com<i class="fa fa-cube fa-2x"></i></h1>
@@ -32,27 +80,57 @@
             <div class="arrow-bottom"></div>
           </div>
       </div>
+    -->
 
-      <div class="main">
-        <div class="copy-container">
-        <h2>― 早速発送する品物の情報を入力して調べてみましょう ―</h2>
-        <p>以下の図にならって厚み、横、縦の長さを入力して下さい</p>
-        <p>入力後、OKを押すと重さに応じた最安の発送方法と料金が表示されます</p>
-        <img src="image.png" alt="" width="400px" height="300px">
-        <p>入力は半角数字、整数、cm単位で行ってください<br /><br /></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="main">
+            <div class="copy-container">
+            <h2>― 早速品物の情報を入力して調べてみましょう ―</h2>
+            <p>以下の図にならって厚み、横、縦の長さを入力して下さい</p>
+            <p>入力後、OKを押すと重さに応じた最安の発送方法と料金が表示されます</p>
+            <img src="image.png" alt="" width="60%" >
+            <p>入力は半角数字、整数、cm単位で行ってください<br /><br /></p>
+            </div>
+          </div>
         </div>
+            <!--
+            <div class="forms">
+              <form action="index.php" method="get">
+                <p>厚み   x (cm):<br>
+                <input type="text" name="x" id="" value="" /></p>
+                <p>横　   y (cm):<br>
+                <input type="text" name="y" id="" value="" /></p>
+                <p>縦　   z (cm):<br>
+                <input type="text" name="z" id="" value="" /></p>
+                <input type="submit" name="" id="btn" value="OK" />
+              </form>
+            </div>
+          -->
 
-        <div class="forms">
-          <form action="index.php" method="get">
-            <p>厚み   x (cm):<br>
-            <input type="text" name="x" id="" value="" /></p>
-            <p>横　   y (cm):<br>
-            <input type="text" name="y" id="" value="" /></p>
-            <p>縦　   z (cm):<br>
-            <input type="text" name="z" id="" value="" /></p>
-            <input type="submit" name="" id="btn" value="OK" />
-          </form>
-        </div>
+          <div class="col-md-4 mx-auto">
+            <form action="index.php" method="get">
+              <div class="mb-3">
+                <label class="form-label">厚み  x (cm):</label>
+                <input type="text" class="form-control" name="x">
+              </div>
+               <div class="mb-3">
+                  <label class="form-label">横  y (cm):</label>
+                　<input type="text" class="form-control" name="y">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">縦  z (cm):</label>
+                <input type="text" class="form-control" name="z">
+              </div>
+              <button type="submit" class="btn btn-secondary mx-auto">OK</button>
+            </form>
+          </div>   
       </div>
+    </div>      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
+
