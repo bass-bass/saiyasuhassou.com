@@ -1,50 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>最安発送.com</title>
     <link rel="icon" href="499_h_h.png">
     <link rel="stylesheet" href="stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MK7XSM4EF3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MK7XSM4EF3');
+    </script>
   </head>
   <body>
-    <div class="header">
-      <ul class="menu">
-        <li class="list"><a href="index.html">Home</a></li>
-        <li class="list"><a href="about.html">About</a></li>
-        <li class="list">
-          <a href="#" class="init-bottom">Learn More</a>
-          <ul class="menu_second">
-            <li class="list_second"><a href="https://www.post.japanpost.jp/send/fee/kokunai/one_two.html">日本郵便</a></li>
-            <li class="list_second"><a href="https://www.mercari.com/jp/rakuraku-mercari/">らくらくメルカリ</a></li>
-            <li class="list_second"><a href="https://www.mercari.com/jp/yuyu-mercari/">ゆうゆうメルカリ</a></li>
-          </ul>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn More</a>
+            <div class="dropdown-menu bg-dark" aria-labelledby="dropdown08">
+              <a class="dropdown-item" href="https://www.post.japanpost.jp/send/fee/kokunai/one_two.html">日本郵便</a>
+              <a class="dropdown-item" href="https://www.mercari.com/jp/rakuraku-mercari/">らくらくメルカリ便</a>
+              <a class="dropdown-item" href="https://www.mercari.com/jp/yuyu-mercari/">ゆうゆうメルカリ便</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <main class="col-md-12 about">
+          <h4>当サイトについて</h4>
+          <p>主に、フリマアプリの<span>「メルカリ」</span>を利用している方々を対象として<br />作られたサイトになります。</p>
+          <p>フリマアプリで商品が売れたときに一番のネックとなるのが<br />「発送」に関することではないでしょうか。</p>
+          <p>特に、あまり利用したことがない人などにとってはどんな発送方法があり、<br />どれを選べば適切で、
+          安い料金で発送できるか分からないことが多いはずです。<br />また、ネットで調べてみても情報が多すぎて、
+          結局どれを選べばいいのか分からない<br />ということはよくあることだと思われます。<br />
+          そういった問題を解決し、より多くの人に手軽に便利に使っていただきたい<br />という思いから、当サービスが作られました。<br />
+          ここでは、発送する商品の厚み、横、縦の長さを入力するだけで、<br />数ある発送方法の中から
+          その商品に合った最安の発送方法を<br />直ちに見つけ出していただくことが可能になります。<br />
+          また、それぞれの発送方法について詳しく知りたい方は、<br />サイト上部の「Learn More」から該当する発送方法のサイトへ<br />
+          移動していただくことができるようになっています。<br />
+          是非多くの方にご利用いただければ幸いです。<br />
+          <br /><br />（※当サイトは利用者数の規模を考慮し、メルカリ利用者を想定して作られました。<br />
+          そのため、らくらくメルカリ便やゆうゆうメルカリ便などの<br />
+          メルカリ利用者限定の発送方法も含まれています。<br />したがって、メルカリを利用していない方などに関しましては<br />
+          利用できない発送方法が表示される可能性もありますのでご注意ください。<br />
+          当サービスに含まれる発送方法は以下のようになっています。<br /><br />
+          ・定形郵便、定形外郵便<br />
+          ・クリックポスト、スマートレター、レターパック、レターパックプラス<br />
+          ・ネコポス、宅急便、宅急便コンパクト（らくらくメルカリ便）<br />
+          ・ゆうパック、ゆうパケット、ゆうパケットポスト、<br />ゆうパケットプラス（ゆうゆうメルカリ便））</p>
+        </div>
+      </div>
     </div>
-
-    <div class="about">
-      <h4>当サイトについて</h4>
-      <p>主に、フリマアプリの<span>「メルカリ」</span>を利用している方々を対象として<br />作られたサイトになります。</p>
-      <p>フリマアプリで商品が売れたときに一番のネックとなるのが<br />「発送」に関することではないでしょうか。</p>
-      <p>特に、あまり利用したことがない人などにとってはどんな発送方法があり、<br />どれを選べば適切で、
-      安い料金で発送できるか分からないことが多いはずです。<br />また、ネットで調べてみても情報が多すぎて、<br />
-      結局どれを選べばいいのか分からないということはよくあることだと思われます。
-      そういった問題を解決し、より多くの人に手軽に便利に使っていただきたい<br />という思いから、当サービスが作られました。<br />
-      ここでは、発送する商品の厚み、横、縦の長さを入力するだけで、<br />数ある発送方法の中から
-      その商品に合った最安の発送方法を<br />直ちに見つけ出していただくことが可能になります。<br />
-      また、それぞれの発送方法について詳しく知りたい方は、<br />サイト上部の「Learn More」から該当する発送方法のサイトへ<br />
-      移動していただくことができるようになっています。<br />
-      是非多くの方にご利用いただければ幸いです。<br />
-      <br /><br />（※当サイトは利用者数の規模を考慮し、メルカリ利用者を想定して作られました。<br />
-      そのため、らくらくメルカリ便やゆうゆうメルカリ便などの<br />
-      メルカリ利用者限定の発送方法も含まれています。<br />したがって、メルカリを利用していない方などに関しましては<br />
-      利用できない発送方法が表示される可能性もありますのでご注意ください。<br />
-      当サービスに含まれる発送方法は以下のようになっています。<br /><br />
-      ・定形郵便、定形外郵便<br />
-      ・クリックポスト、スマートレター、レターパック、レターパックプラス<br />
-      ・ネコポス、宅急便、宅急便コンパクト（らくらくメルカリ便）<br />
-      ・ゆうパック、ゆうパケット、ゆうパケットポスト、<br />ゆうパケットプラス（ゆうゆうメルカリ便））</p>
-    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
