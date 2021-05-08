@@ -98,6 +98,7 @@ li.list_second{
 .jumbotron {
   background-color:#0099cc;
   color:white;
+  height:380px;
 }
 
 /*
@@ -118,22 +119,12 @@ li.list_second{
 
 }
 */
-.jumbotron p{
-  font-size:30px;
-  opacity:0.8;
+.jumbotron h1{
+  font-size:70px;
 }
-
-
-.arrow-bottom {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  margin:110px 0px 0px 510px;
-  text-align:center;
-  border-bottom: 4px solid white;
-  border-right: 4px solid white;
-  opacity:0.6;
-  transform: rotate(45deg);
+.jumbotron p{
+  font-size:25px;
+  opacity:0.8;
 }
 .dropdown-item {
   color:white;
@@ -150,11 +141,11 @@ li.list_second{
 }
 .copy-container h2{
   font-size:35px;
-  padding-top:40px;
+  padding-top:80px;
   padding-bottom:40px;
   margin-bottom:40px;
   /*text-align:center;*/
-  opacity:0.5;
+  opacity:0.7;
 }
 .copy-container p{
   font-size:17px;
@@ -264,5 +255,5 @@ li.list_second{
   text-align:center;
 }
 .btn {
-  opacity:0.8;
+  opacity:0.9;
 }
